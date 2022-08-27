@@ -1,0 +1,139 @@
+.home-container{
+    // height: 90vh;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+
+}
+
+.big-title{
+    // width: 65%;
+    h4{
+        font-weight: 300;
+        margin: 0;
+    }
+    
+
+    span{
+        margin-bottom: 15px;
+    }
+}
+h1{
+    // font-size: 60px;
+
+    span{
+        color: #C8B6E2;
+
+    }
+
+}
+
+.home-receip--container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+}
+
+.big-title--container{
+    display: flex;
+    flex-direction: column;
+    // padding-top: 30px;
+    padding-left: 25px;
+    justify-content: flex-start;
+}
+
+.illustration-container{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0;
+    .white-circle{
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background-color: #7A86B6;
+        // position: fixed;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        box-shadow:0px 0px 37px -5px #A8A4CE;
+        z-index: 2;
+        border: 5px solid #E7F6F2;
+
+    }
+}
+.parallax-back{
+    position: absolute;
+    z-index: 1;
+    right: 160px;
+}
+
+.parallax-front{
+    position: absolute;
+    top: 175px;
+    right: 0px;
+    z-index: 3;
+}
+.explore-menu{
+    button{
+        margin: 20px 0;
+        background-color: #7A86B6;
+        border: none;
+        outline: none;
+        height: 40px;
+        width:  120px;
+        border-radius: 6px;
+        color: #E7F6F2;
+        transition: all .3s ease-in-out;
+
+        a{
+            color: #E7F6F2;
+            height: 100%;
+            width: 100%;
+        }
+
+        &:hover{
+            a{
+            // color: #;
+
+            }
+            background-color: #A8A4CE;
+        }
+    }
+}
+
+.card--box{
+    display: flex;
+    justify-content: center;
+}
+
+.card--container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 0px #A8A4CE;
+    // box-shadow: 3px 3px 5px 2px #000;
+    transition: all .5s;
+
+    &:hover{
+            // box-shadow: 2px 2px 5px 0px #A8A4CE;
+            transform: scale(1.05);
+
+    }
+
+}
