@@ -20,9 +20,9 @@
 }
 h1{
     // font-size: 60px;
-
+    
     span{
-        color: #C8B6E2;
+        color: #E7AB79;
 
     }
 
@@ -48,20 +48,17 @@ h1{
     width: 100%;
     display: flex;
     justify-content: center; 
-    padding: 20px 0;
+    padding: 30px 0;
     .white-circle{
-        height: 250px;
-        width: 250px;
+        height: 130px;
+        width: 150px;
         border-radius: 50%;
-        background-color: #7A86B6;
-        // position: fixed;
         display: flex;
         justify-content: center;
         align-content: center;
-        box-shadow:0px 0px 37px -5px #A8A4CE;
+        box-shadow: 0px 0px 37px 10px #4C3A51;
         z-index: 2;
-        border: 5px solid #E7F6F2;
-
+        margin-bottom: 25px;
     }
 }
 .parallax-back{
@@ -79,7 +76,7 @@ h1{
 .explore-menu{
     button{
         margin: 20px 0;
-        background-color: #7A86B6;
+        background-color: #4C3A51;
         border: none;
         outline: none;
         height: 40px;
@@ -96,10 +93,10 @@ h1{
 
         &:hover{
             a{
-            // color: #;
+            // color: #E7AB79;
 
             }
-            background-color: #A8A4CE;
+            background-color: #774360;
         }
     }
 }
@@ -107,6 +104,8 @@ h1{
 .card--box{
     display: flex;
     justify-content: center;
+
+   
 }
 
 .card--container{
@@ -118,17 +117,44 @@ h1{
 
 .card{
     background: #fff;
-    height: 100px;
+    height: 200px;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin: 10px;
-    box-shadow: 2px 2px 5px 0px #A8A4CE;
-    // box-shadow: 3px 3px 5px 2px #000;
-    transition: all .5s;
+    box-shadow: 0px 2px 5px -5px #2e2e2e;
+        transition: all 0.5s;
+    padding-top: 10px;
+
+    &:first-child{
+        background: #f0ddfb;
+    }
+
+    &:nth-child(2){
+        background: #bdedb4;
+    }
+
+    &:last-child{
+        background: #FAD9A1;
+    }
+
+    .img--container{
+        display: flex;
+        align-items: center;
+        height: 50%;
+    }
+
+    .card--title--container{
+        display: flex;
+        max-width: 90%;
+        min-height: 25%;
+    }
+    .card--title{
+        padding-bottom: 10px;
+        text-align: center;
+    }
 
     &:hover{
             // box-shadow: 2px 2px 5px 0px #A8A4CE;
@@ -136,4 +162,14 @@ h1{
 
     }
 
+}
+
+.macro--container{
+    span{
+        display: flex;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
 }
